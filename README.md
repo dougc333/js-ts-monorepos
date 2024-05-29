@@ -1,5 +1,11 @@
 # JS/TS Monorepos
 
+# DEBUG NOTES: 
+1) copy fixed_node_modules to node_modules
+the modifications to xxx.d.ts files are different than what is in the video
+
+
+
 [![Node.js CI (solution)](https://github.com/mike-north/js-ts-monorepos/workflows/Node.js%20CI%20(solution)/badge.svg)](https://github.com/mike-north/js-ts-monorepos/actions?query=workflow%3A%22Node.js+CI+%28solution%29%22)
 [![TypeScript@Next tests (solution)](https://github.com/mike-north/js-ts-monorepos/workflows/TypeScript@Next%20tests%20(solution)/badge.svg)](https://github.com/mike-north/js-ts-monorepos/actions?query=workflow%3A%22TypeScript%40Next+tests+%28solution%29%22)
 
