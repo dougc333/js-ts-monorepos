@@ -4,6 +4,8 @@
 1) copy fixed_node_modules to node_modules
 the modifications to xxx.d.ts files are different than what is in the video
 
+COURSE_FILES are missing 01-03 sections. Go to the original repo to get them.
+These containe the types and utils directories
 
 
 ### Tools
