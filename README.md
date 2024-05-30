@@ -7,6 +7,15 @@ the modifications to xxx.d.ts files are different than what is in the video
 COURSE_FILES are missing 01-03 sections. Go to the original repo to get them.
 These containe the types and utils directories
 
+branch dc is completed up to Yarn2 and Dependencies Q&A
+
+> cd packages/types 
+> yarn install; yarn build
+> yarn jest
+> cd packages/utils
+> yarn install; yarn build
+> yarn jest
+
 
 ### Tools
 
