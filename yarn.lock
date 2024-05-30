@@ -3754,7 +3754,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"async@npm:^2.6.1":
+"async@npm:^2.6.4":
   version: 2.6.4
   resolution: "async@npm:2.6.4"
   dependencies:
@@ -5258,9 +5258,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.668":
-  version: 1.4.785
-  resolution: "electron-to-chromium@npm:1.4.785"
-  checksum: 10c0/c6da9531bdbd604c70cd303fd7ec8888c6a2f2baa85f35f403a95863bcf1efc11651e8a9a937940aaa924bc44230223f7a248fb9684b00566fceaad7d3d697f0
+  version: 1.4.787
+  resolution: "electron-to-chromium@npm:1.4.787"
+  checksum: 10c0/fa509ca710186461dd53e31773a7b06af3a958ab9b06b2e3d1d64de35204df2ff6f2050c94186adf4b850583666a50d30a6912103a0e3f5bcfc97864712ff424
   languageName: node
   linkType: hard
 
@@ -8004,7 +8004,7 @@ __metadata:
     eslint: "npm:7.11.0"
     lerna: "npm:3.22.1"
     lerna-changelog: "npm:1.0.1"
-    scripty: "npm:2.0.0"
+    scripty: "npm:^2.1.1"
   languageName: unknown
   linkType: soft
 
@@ -10790,17 +10790,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scripty@npm:2.0.0":
-  version: 2.0.0
-  resolution: "scripty@npm:2.0.0"
+"scripty@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "scripty@npm:2.1.1"
   dependencies:
-    async: "npm:^2.6.1"
+    async: "npm:^2.6.4"
     glob: "npm:^7.0.3"
     lodash: "npm:^4.17.11"
     resolve-pkg: "npm:^1.0.0"
   bin:
     scripty: cli.js
-  checksum: 10c0/0516be4c354e7c28bac3b3dd5c94e34cbc3cc6f008be23823a5ea4a0dbb8ae2a34c58fed59006db5d2ba330c19dde5f8f66fb61f04914c0a5d57ba11c258227b
+  checksum: 10c0/e0725d1f39d7c22f53058d67d7cf75e1212cc0ff531ab14588512df4c33b1d2647bce8dc9217b4453d2d5050dc2a466f11a7c31fb416421766eeb1cf8d13428b
   languageName: node
   linkType: hard
 

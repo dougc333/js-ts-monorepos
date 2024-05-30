@@ -43,6 +43,13 @@ Please only submit bug reports when using the officially supported version.
 
 =============
 
+branch dc2_scripty
+Add scripts to do clean , build, test
+
+after scripty added and yarn build runs ok, ake sure to copy intlDateFunctions.d.ts to node_modules in
+top level not in pacakges/utils/node_modules 
+
+
 
 ## Tools
 

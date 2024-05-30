@@ -11,10 +11,13 @@
     "react": "^18.3.1"
   },
   "scripts": {
-    "build": "tsc -b .",
-    "test": "jest",
+    "build": "scripty",
+    "test": "scripty",
     "clean": "rimraf dist *.tsbuildinfo",
-    "lint": "eslint src --ext js,ts"
+    "lint": "scripty"
+  },
+  "scripty": {
+    "path": "../../scripts/packages"
   },
   "devDependencies": {
     "@types/react": "^18",

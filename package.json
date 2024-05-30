@@ -10,7 +10,13 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "greet": "scripty",
+    "build": "scripty",
+    "test": "scripty",
+    "lint": "scripty"
+  },
+  "scripty": {
+    "path": "./scripts/workspace"
   },
   "volta": {
     "node": "16.14.2",
@@ -25,6 +31,6 @@
     "eslint": "7.11.0",
     "lerna": "3.22.1",
     "lerna-changelog": "1.0.1",
-    "scripty": "2.0.0"
+    "scripty": "^2.1.1"
   }
 }
