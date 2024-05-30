@@ -16,8 +16,35 @@ branch dc is completed up to Yarn2 and Dependencies Q&A
 > yarn install; yarn build
 > yarn jest
 
+branch dc2: 
+eslint setup and validation with lerna and scripty setup
+>cd packages/types, if not found install eslint. Make sure to use correct
+>version
+>yarn add -D eslint@7.11.0; get version from master repo packages/package.json
+>npx eslint src --ext js,ts depending on how path is setup
+should see no errors; will see boilerplate 
 
-### Tools
+>cd packages/utils
+>npx eslint src --ext js,ts
+
+
+Boilerplate response from eslint looks like: 
+=============
+
+WARNING: You are currently running a version of TypeScript which is not officially supported by @typescript-eslint/typescript-estree.
+
+You may find that it works just fine, or you may not.
+
+SUPPORTED TYPESCRIPT VERSIONS: >=3.3.1 <4.1.0
+
+YOUR TYPESCRIPT VERSION: 4.9.5
+
+Please only submit bug reports when using the officially supported version.
+
+=============
+
+
+## Tools
 
 Next, make sure you have installed [volta](http://volta.sh/) which ensures you have the right version of node and yarn for this project. You can run:
 ```
