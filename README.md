@@ -56,6 +56,10 @@ Lernna and scripty, yarn build, yarn test, yarn lint at main level
 
 branch dc4
 commit messages and commintlint
+./testcommitlint.sh
+
+branch dc5: 
+publish to proxy using verdaccio. Proxy, doesnt push to npm. 
 
 ## Tools
 
