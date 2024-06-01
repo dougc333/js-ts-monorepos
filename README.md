@@ -60,8 +60,10 @@ commit messages and commintlint
 
 branch dc5: 
 publish to proxy using verdaccio. Proxy, doesnt push to npm. 
+Verdaccio install uses the latest version but this requires node >18 so
+following the instrucgtions in teh video wont work. He installs using volta
+which doesn't record teh versoin number anywhere
 
-## Tools
 
 Next, make sure you have installed [volta](http://volta.sh/) which ensures you have the right version of node and yarn for this project. You can run:
 ```
