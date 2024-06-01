@@ -2999,8 +2999,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@shlack/utils@workspace:packages/utils"
   dependencies:
+    "@types/eslint": "npm:^7"
     "@types/react": "npm:^18"
     date-fns: "npm:^3.6.0"
+    eslint: "npm:7.11.0"
     jest: "npm:^29.7.0"
     react: "npm:^18.3.1"
     typescript: "npm:^5.4.5"
